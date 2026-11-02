@@ -234,18 +234,19 @@
             </div>
           </article>
 
-          <!-- Project 4: TaskFlow Engine -->
+          <!-- Project 4: WorkSphere Engine -->
           <article class="project-card">
             <div class="project-header">
               <div class="project-title-area">
-                <h3 class="project-name">TaskFlow Engine</h3>
-                <div class="project-tagline">Distributed task processing engine with async REST APIs & worker pool</div>
+                <h3 class="project-name">WorkSphere Engine</h3>
+                <div class="project-tagline">Multi-tenant company management platform with async Redis background jobs & RBAC</div>
               </div>
             </div>
             <ul class="project-features">
-              <li>Built a distributed processing engine with Spring Boot, async REST APIs, priority queues, and a 10-worker pool for concurrent workloads.</li>
-              <li>Implemented Redis queues with idempotency checks, PostgreSQL persistence, and up to 3 automated retries using exponential backoff.</li>
-              <li>Benchmarked system performance under load with 100 concurrent virtual users across 1,000+ queued tasks, achieving sub-500 ms p95 API latency and zero task duplication under peak traffic.</li>
+              <li>Developed a multi-tenant company management platform using Spring Boot and React.js to manage company workspaces, admin controls, employee profiles, departments, projects, and task assignments.</li>
+              <li>Implemented asynchronous background job processing using Redis for task scheduling, employee notifications, email delivery, and report generation without blocking user requests.</li>
+              <li>Designed scalable REST APIs to support 5,000+ task records and 100 concurrent users, targeting sub-500 ms p95 API latency through performance optimization and load testing.</li>
+              <li>Result: Implemented secure APIs using JWT authentication, role-based access control (RBAC), and organization-level data isolation, validated through 50+ security test cases.</li>
             </ul>
             <div class="tech-stack">
               <span class="tech-pill">Java</span>
@@ -253,55 +254,16 @@
               <span class="tech-pill">PostgreSQL</span>
               <span class="tech-pill">Redis</span>
               <span class="tech-pill">React.js</span>
+              <span class="tech-pill">JWT</span>
               <span class="tech-pill">Kafka</span>
               <span class="tech-pill">REST APIs</span>
             </div>
             <!-- ========================================================= -->
-            <!-- 🔗 [PROJECT 4 LINKS] TASKFLOW ENGINE                         -->
+            <!-- 🔗 [PROJECT 4 LINKS] WORKSPHERE ENGINE                       -->
             <!-- ========================================================= -->
             <div class="project-actions">
               <!-- 👇 PASTE YOUR LIVE DEMO URL HERE 👇 -->
-              <a class="btn-action-live" href="https://taskflow-engine.example.com" target="_blank" rel="noopener">
-                <span>Try it here</span>
-                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
-              </a>
-              <!-- 👇 PASTE YOUR GITHUB REPOSITORY URL HERE 👇 -->
-              <a class="btn-action-code" href="https://github.com/krishnagondaliya18?tab=repositories" target="_blank" rel="noopener">
-                <span>Source code</span>
-                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
-              </a>
-            </div>
-          </article>
-
-          <!-- Project 5: VisionMart -->
-          <article class="project-card">
-            <div class="project-header">
-              <div class="project-title-area">
-                <h3 class="project-name">VisionMart</h3>
-                <div class="project-tagline">Decoupled microservices architecture with visual vector search & recommendations</div>
-              </div>
-            </div>
-            <ul class="project-features">
-              <li>Architected a decoupled microservices system using Java Spring Boot for core E-commerce business transactions and Python FastAPI for ML workloads.</li>
-              <li>Built a visual search feature using a deep-learning model and vector database for image similarity matching.</li>
-              <li>Developed a recommendation service in Python and integrated it with Spring Boot through REST APIs.</li>
-              <li>Designed a secure relational schema in PostgreSQL managed via Spring Data JPA (Hibernate) for consistent user, order, and inventory tracking.</li>
-            </ul>
-            <div class="tech-stack">
-              <span class="tech-pill">Python FastAPI</span>
-              <span class="tech-pill">Spring Boot</span>
-              <span class="tech-pill">JavaScript</span>
-              <span class="tech-pill">REST APIs</span>
-              <span class="tech-pill">Microservices</span>
-              <span class="tech-pill">Vector DB</span>
-              <span class="tech-pill">PostgreSQL</span>
-            </div>
-            <!-- ========================================================= -->
-            <!-- 🔗 [PROJECT 5 LINKS] VISIONMART                              -->
-            <!-- ========================================================= -->
-            <div class="project-actions">
-              <!-- 👇 PASTE YOUR LIVE DEMO URL HERE 👇 -->
-              <a class="btn-action-live" href="https://visionmart-demo.example.com" target="_blank" rel="noopener">
+              <a class="btn-action-live" href="https://worksphere-engine.example.com" target="_blank" rel="noopener">
                 <span>Try it here</span>
                 <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
               </a>
@@ -549,7 +511,7 @@
               I completed my graduation in Computer Science (BCA) from VNSGU, Surat, and am currently pursuing my Master's with an AI/ML specialization. I dedicate myself to engineering production‑shaped systems rather than following tutorial clones.
             </p>
             <p>
-              My work spans distributed task processing engines with Spring Boot and Kafka, geospatial AI & multimodal reasoning with Qwen3-VL and SAM3, visual vector search with deep learning, decoupled microservices, and enterprise full-stack web applications built with Java Spring Boot, Python FastAPI, React, TypeScript, and Angular.
+              My work spans multi-tenant company management and distributed background task engines with Spring Boot, Redis and Kafka, geospatial AI & multimodal reasoning with Qwen3-VL and SAM3, and enterprise full-stack web applications built with Java Spring Boot, Python FastAPI, React, TypeScript, and Angular.
             </p>
             <p>
               I am actively looking for an entry‑level <strong>Software Developer</strong> or <strong>AI/ML Engineer</strong> role — within product startups, SaaS firms, or engineering teams — where I can bring end-to-end craftsmanship and continuous learning to production code.
@@ -647,8 +609,7 @@
         <a href="#work" class="footer-project-link">EventHub System</a>
         <a href="#work" class="footer-project-link">MakeCV</a>
         <a href="#work" class="footer-project-link">GeoLens</a>
-        <a href="#work" class="footer-project-link">TaskFlow Engine</a>
-        <a href="#work" class="footer-project-link">VisionMart</a>
+        <a href="#work" class="footer-project-link">WorkSphere Engine</a>
       </div>
 
       <!-- Copyright & Info -->

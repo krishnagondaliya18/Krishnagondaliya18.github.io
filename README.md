@@ -9,8 +9,7 @@ A software developer portfolio built with OpenAI ChatGPT's design system, featur
   - **EventHub System**: Event management & online ticketing system with automated workflows (Node.js, MongoDB, Angular, CSS, JavaScript)
   - **MakeCV**: Full-stack resume builder with ATS compatibility score analysis & multi-template export (React, TypeScript, Node.js, Express, MongoDB, JWT, Redux Toolkit)
   - **GeoLens**: Geospatial AI platform combining multimodal reasoning & computer vision for satellite imagery (Python, FastAPI, React.js, Qwen3-VL, Computer Vision, NLP, SAM3)
-  - **TaskFlow Engine**: Distributed task processing engine with async REST APIs, priority queues & worker pool (Java, Spring Boot, PostgreSQL, Redis, React.js, Kafka)
-  - **VisionMart**: Decoupled microservices architecture with deep-learning visual search & vector similarity (Python FastAPI, Spring Boot, JavaScript, REST APIs, Microservices, VectorDB, PostgreSQL)
+  - **WorkSphere Engine**: Multi-tenant company management platform with async Redis background jobs & RBAC (Java, Spring Boot, PostgreSQL, Redis, React.js, JWT, Kafka)
 - **Recruiter Utilities**:
   - 1-Click "Copy Email" button with toast confirmation.
   - Quick action buttons for Live Demo, GitHub, and LinkedIn.
