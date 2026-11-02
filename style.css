@@ -888,6 +888,107 @@ h1, h2, h3, h4 {
   margin-bottom: 5px;
 }
 
+/* --- Certifications Section --- */
+.cert-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 18px;
+}
+
+.cert-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 18px;
+  box-shadow: var(--shadow-card);
+  transition: var(--transition);
+}
+
+.cert-card:hover {
+  transform: translateY(-3px);
+  border-color: var(--border-medium);
+  box-shadow: var(--shadow-hover);
+}
+
+.cert-card-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cert-icon-wrap {
+  width: 40px;
+  height: 40px;
+  border-radius: var(--radius-sm);
+  background: var(--bg-surface);
+  border: 1px solid var(--border-subtle);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--accent);
+}
+
+.cert-badge {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  padding: 3px 10px;
+  border-radius: var(--radius-full);
+  background: var(--tag-bg);
+  border: 1px solid var(--tag-border);
+  color: var(--text-muted);
+}
+
+.cert-card-body {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.cert-name {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  line-height: 1.35;
+}
+
+.cert-meta {
+  font-size: 0.83rem;
+  color: var(--text-secondary);
+  line-height: 1.5;
+}
+
+.cert-card-bottom {
+  margin-top: auto;
+}
+
+.btn-cert-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  width: 100%;
+  padding: 9px 16px;
+  border-radius: var(--radius-sm);
+  background: var(--bg-surface);
+  color: var(--text-primary);
+  border: 1px solid var(--border-medium);
+  font-size: 0.86rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: var(--transition);
+}
+
+.btn-cert-link:hover {
+  background: var(--accent);
+  color: #ffffff !important;
+  border-color: var(--accent);
+  transform: translateY(-1px);
+}
+
 /* --- Coding Profiles Grid --- */
 .coding-grid {
   display: grid;
@@ -1046,7 +1147,8 @@ h1, h2, h3, h4 {
 
 /* --- Mobile / Responsive --- */
 @media (max-width: 860px) {
-  .coding-grid {
+  .coding-grid,
+  .cert-grid {
     grid-template-columns: repeat(2, 1fr);
   }
 
@@ -1085,7 +1187,8 @@ h1, h2, h3, h4 {
 }
 
 @media (max-width: 520px) {
-  .coding-grid {
+  .coding-grid,
+  .cert-grid {
     grid-template-columns: 1fr;
   }
 }

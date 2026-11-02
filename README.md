@@ -10,6 +10,9 @@ A software developer portfolio built with OpenAI ChatGPT's design system, featur
   - **MakeCV**: Full-stack resume builder with ATS compatibility score analysis & multi-template export (React, TypeScript, Node.js, Express, MongoDB, JWT, Redux Toolkit)
   - **GeoLens**: Geospatial AI platform combining multimodal reasoning & computer vision for satellite imagery (Python, FastAPI, React.js, Qwen3-VL, Computer Vision, NLP, SAM3)
   - **WorkSphere Engine**: Multi-tenant company management platform with async Redis background jobs & RBAC (Java, Spring Boot, PostgreSQL, Redis, React.js, JWT, Kafka)
+- **Verified Certifications**:
+  - HackerRank Software Engineer
+  - HackerRank SQL (Basic, Intermediate, Advanced)
 - **Recruiter Utilities**:
   - 1-Click "Copy Email" button with toast confirmation.
   - Quick action buttons for Live Demo, GitHub, and LinkedIn.
